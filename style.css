@@ -25,8 +25,11 @@ body {
 }
 
  body{
+      
         background: var(--bg-url) no-repeat top center/cover;
-     height: 100vh;
+        min-height: 100vh; 
+        margin: 0; 
+        padding: 0;
 }
 
 body * {
@@ -37,8 +40,10 @@ body * {
     #container {
         width: 100%;
         max-width: 588px;
-        margin: 56px auto 0px; 
-        padding: 0 24px
+/*         margin: 56px auto 0px; 
+        padding: 0 24px */
+        margin: 0 auto; 
+        padding: 56px 24px 0;
 }
 
 #profile {
